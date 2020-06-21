@@ -220,7 +220,5 @@ print(bin(num).count('1'))
 > 10 11
 > ```
 
-```pyhton
 
-```
 
