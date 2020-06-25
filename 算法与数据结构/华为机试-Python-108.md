@@ -222,3 +222,30 @@ print(bin(num).count('1'))
 
 
 
+```python
+def matrix_mul(a, b):
+    # (m*n) * (n*m) = (m*m)
+    # 两个矩阵可以相乘的条件:前面的列=后面的行
+    res_row = len(a)
+    res_col = len(b[0])
+
+    if res_row == res_col:
+        # 初始化矩阵
+        res = [[0] * res_col for i in range(res_row)]
+        # 矩阵相乘
+        for i in range(res_row):
+            for j in range(res_col):
+                for k in range(len(b)):
+                    res[i][j] += a[i][k] * b[k][j]
+    return res
+```
+
+```C++
+for(i = 0; i < r1; ++i)
+        for(j = 0; j < c2; ++j)
+            for(k = 0; k < c1; ++k)
+            {
+                mult[i][j] += a[i][k] * b[k][j];
+            }
+```
+
