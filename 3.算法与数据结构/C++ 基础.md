@@ -73,3 +73,5 @@
 for(auto &i:s) 对i的操作将直接改变s
 
 for(auto i:s) 对i的操作将不改变s
+
+其中s为迭代器
