@@ -13,8 +13,6 @@
 
 - [x] YOLO V4/V5 技术总结
 
-  ![YOLO V4](image/YOLO V4.png)
-
 - [x] 头部姿态估计
 
 
