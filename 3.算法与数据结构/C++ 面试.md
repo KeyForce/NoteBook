@@ -63,6 +63,10 @@ https://www.nowcoder.com/discuss/447132?type=2&order=0&pos=6&page=1&channel=666&
 
 
 
+[中兴面试经验之谈(结合自己与网上的面经)_zhf的博客-CSDN博客_中兴终面面试经验](https://blog.csdn.net/weixin_43283397/article/details/106405607?ops_request_misc=%257B%2522request%255Fid%2522%253A%2522159428038019724839208620%2522%252C%2522scm%2522%253A%252220140713.130102334..%2522%257D&request_id=159428038019724839208620&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~blog~first_rank_v2~rank_blog_v1-4-106405607.pc_v2_rank_blog_v1&utm_term=%E4%B8%AD%E5%85%B4%E9%9D%A2%E8%AF%95)
+
+
+
 ## 地平线
 
 (4条未读通知) 秋招攒人品_笔经面经_牛客网
