@@ -67,6 +67,20 @@ https://www.nowcoder.com/discuss/447132?type=2&order=0&pos=6&page=1&channel=666&
 
 
 
+[中兴优招软开岗一面、二面_笔经面经_牛客网](https://www.nowcoder.com/discuss/451104?type=post&order=time&pos=&page=0&channel=2000&source_id=search_post)
+
+TCP/IP四层协议
+
+操作系统进程之间通讯
+
+使用过Linux吗？说说常用命令
+
+消息队列技术的优点
+
+消息队列放到内存还是磁盘？
+
+如何保证http请求安全
+
 ## 地平线
 
 (4条未读通知) 秋招攒人品_笔经面经_牛客网

@@ -11,9 +11,19 @@
 
 - [ ] 剑指Offer Python/C++
 
-- [x] YOLO V4/V5 技术总结
+- [x] YOLO V4/V5 技术总结 思维导图
 
 - [x] 头部姿态估计
+
+- [ ] 目标检测思维导图
+
+- [x] Softmax Loss
+
+  A-Softmax Loss（SphereFace）
+
+  Cosine Margin Loss（CosFace）
+
+  Angular Margin Loss（ArcFace）
 
 
 
