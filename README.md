@@ -11,7 +11,7 @@
 
 - [ ] 剑指Offer Python/C++
 
-- [x] YOLO V4/V5 技术总结 思维导图
+- [x] YOLO V4/V5 技术总结 思维导图（Medium博文）
 
 - [x] 头部姿态估计
 

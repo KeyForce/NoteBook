@@ -1,3 +1,5 @@
+# 面试1
+
 [中兴软件开发面试](https://blog.csdn.net/jerryz2017/article/details/100603157?ops_request_misc=%7B%22request%5Fid%22%3A%22159430027919724835802133%22%2C%22scm%22%3A%2220140713.130102334.pc%5Fall.%22%7D&request_id=159430027919724835802133&biz_id=0&utm_medium=distribute.pc_search_result.none-task-blog-2~all~first_rank_ecpm_v3~rank_ctr_v3-2-100603157.ecpm_v1_rank_ctr_v3&utm_term=中兴+软件开发)
 
 ## python常用库有哪些？
@@ -23,21 +25,37 @@
 
 ## 上面的排序算法中那种最快，复杂度是多少？
 
+最快 快速排序 O(nlogn)
+
+冒泡排序 O(n^2)
+
 ## 类方法中__init__与__new__的区别?
 
-new_作用于___init___之前。前者可以决定是否调用后者，可以决定调用哪个类的_init_方法。
+new作用于init之前。前者可以决定是否调用后者，可以决定调用哪个类的init方法。
 
 ## 熟悉哪些数据结构？
 
+列表 字典 集合 链表 队列 二叉树 堆栈
+
 ## 链表适用于哪些场合？
+
+频繁做插入删除操作，数据大小没有固定
 
 ## 可变数据类型和不可变数据类型？
 
+- 可变类型：会在原来的内存地址上修改元素 比如： **列表，字典**
+- 不可变类型：不会在原来的内存地址上修改元素，而是指向了新的内存引用 比如：**整型，**
+  **字符串，元组**
+
 ## 强制改变不可变数据类型会怎样？
 
+Python会抛出TypeError异常
 
 
-[(1条未读通知) 中兴软件开发提前批面经_笔经面经_牛客网](https://www.nowcoder.com/discuss/450141?type=post&order=rank&pos=&page=1&channel=2000&source_id=search_post)
+
+# 面试2
+
+[中兴软件开发提前批面经_笔经面经_牛客网](https://www.nowcoder.com/discuss/450141?type=post&order=rank&pos=&page=1&channel=2000&source_id=search_post)
 
 ## Python读取Excel文件的方式
 
