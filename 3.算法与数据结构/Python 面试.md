@@ -104,3 +104,26 @@ sizeof 是运算符，其值在编译时即计算好了
 
 [中兴优招一二面_笔经面经_牛客网](https://www.nowcoder.com/discuss/451227?type=post&order=create&pos=&page=1&channel=2000&source_id=search_post)
 
+# 面试4
+
+[中兴ZTE2020.7.15优招一面记录_笔经面经_牛客网](https://www.nowcoder.com/discuss/452446?type=post&order=create&pos=&page=1&channel=2000&source_id=search_post)
+
+## LINUX系统下怎么设置文件权限
+
+数字 4 、2 和 1，表示读、写、执行权限，即 r=4，w=2，x=1
+
+rwx = 4 + 2 + 1 = 7
+
+rw = 4 + 2 = 6
+
+rx = 4 +1 = 5
+
+拥有者 、群组 、其它组( u、 g 、o)，分别代表User、Group、及Other的权限
+
+- 设置所有人可以读写及执行
+
+  chmod 777 file  (等价于  chmod u=rwx,g=rwx,o=rwx file 或  chmod a=rwx file)
+
+- 设置拥有者可读写，其他人不可读写执行
+
+  chmod 600 file (等价于  chmod u=rw,g=---,o=--- file）
