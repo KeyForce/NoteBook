@@ -135,3 +135,68 @@ rx = 4 +1 = 5
 ## 判断短的字符串在长的字符串中出现的次数
 
 * KMP算法 Knuth-Morris-Pratt 字符串查找算法
+* 双指针
+* 滑动窗口
+
+```python
+a = "abababc"
+b = "ab"
+# 方法 1
+count_a = a.count(b)
+print(count_a)
+
+# 方法 2 
+# 双指针
+i = 0
+j = 0
+count_b = 0
+while i<len(a):
+    if a[i]==b[j]:
+        i+=1
+        j+=1
+    else:
+        i+=1
+        j=0
+    if j == len(b):
+        count_b += 1
+        j = 0
+
+print(count_b)
+
+        
+# 方法 3
+# 固定滑动窗口
+j = len(b)
+count_c = 0
+for i in range(len(a)):
+    if a[i:i+j] == b:
+        count_c += 1
+print(count_c)
+```
+
+```C++
+int main() {
+    char a[]="abababc";
+    char b[]="ab";
+    
+    int i=0;
+    int j=0;
+    int count=0;
+    while(a[i]!='\0'){
+        if(a[i]==b[j]){
+            i++;
+            j++;
+        }else{
+            i++;
+            j=0;
+        }
+        if(b[j]=='\0'){
+            count++;
+            j=0;
+        }
+    }
+    
+    std::cout << count;
+}
+```
+
