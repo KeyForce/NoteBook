@@ -127,3 +127,11 @@ rx = 4 +1 = 5
 - 设置拥有者可读写，其他人不可读写执行
 
   chmod 600 file (等价于  chmod u=rw,g=---,o=--- file）
+
+# 面试5
+
+[中兴优招 base南京_笔经面经_牛客网](https://www.nowcoder.com/discuss/454029?channel=2000&source_id=home_feed)
+
+## 判断短的字符串在长的字符串中出现的次数
+
+* KMP算法 Knuth-Morris-Pratt 字符串查找算法
