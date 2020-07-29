@@ -1,5 +1,7 @@
 # NoteBook
 
+![](https://img.shields.io/badge/Editor-Typora-red)
+
 - [ ] 机器学习理论基础
 
 
@@ -15,7 +17,7 @@
 
 - [x] 头部姿态估计
 
-- [ ] 目标检测思维导图
+- [x] 目标检测思维导图
 
 - [x] Softmax Loss
 
