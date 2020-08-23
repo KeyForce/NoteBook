@@ -4,6 +4,7 @@
 
 * [C++基础教程](http://c.biancheng.net/cplus/)
 * [STL教程：C++ STL快速入门（非常详细）](http://c.biancheng.net/stl/)
+* [C++ 常用STL库总结 | AI柠檬](https://blog.ailemon.me/2019/03/29/cpp-stl-library-summary/)
 
 ## iterator
 
