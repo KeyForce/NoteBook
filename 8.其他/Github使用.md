@@ -17,3 +17,10 @@ git reset --hard commit_id // HEAD 就会指向此次的提交记录 hard此次�
 git reset --soft commit_id // 此次提交之后的修改会被退回到暂存区,不会被删除
 git push origin HEAD --force // 强制推送到远端
 ```
+
+本地分支与远程分支冲突
+
+```
+git pull --rebase origin master
+```
+
