@@ -8,7 +8,7 @@
 
 
 
-# Main
+# Details
 
 1×1卷积应该叫投影函数（Project function）
 
