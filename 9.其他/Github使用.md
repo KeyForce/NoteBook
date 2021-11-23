@@ -24,3 +24,46 @@ git push origin HEAD --force // 强制推送到远端
 git pull --rebase origin master
 ```
 
+
+
+### …or create a new repository on the command line
+
+
+
+```
+echo "# test" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/KeyForce/test.git
+git push -u origin main
+```
+
+### …or push an existing repository from the command line
+
+
+
+```
+git remote add origin https://github.com/KeyForce/test.git
+git branch -M main
+git push -u origin main
+```
+
+
+
+提交现存的仓库到目标仓库
+
+```
+git init
+git config user.name "name"
+git config user.email "email"
+git remote add origin <链接>
+git pull origin master
+  
+git branch
+git add .
+git commit -m "First commit"
+git push origin master
+```
+
